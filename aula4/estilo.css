@@ -1,0 +1,87 @@
+* body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+}
+#containerTopo{
+    width: 980px; /* Largura  */
+    height: 150px; /* altura */
+   /* background-color: brown;  cor de fundo */
+    margin: auto; /*  centralizado */
+}
+#logo{
+    width: 200px;
+    height: 150px;
+    /* background-color: chartreuse; */
+    float: left;
+    
+}
+#logo img{
+    margin: 10px 10px 10px 10px;
+    width: 150px;
+    float: left;
+}
+#menu{
+    width: 780px;
+    height: 75px;
+   /* background-color: black; */
+    float: right;
+    text-align: center;
+    word-spacing: 5px;
+    color: rgb(16, 118, 202);
+    font-size: 16px;
+    padding-top: 50px ;
+}
+#menu a {
+    text-decoration: none;
+    color: brown;
+}
+#menu a:hover{
+    color: rgb(1, 23, 63);
+}
+#banner{
+    width: 800px;
+    height: 300px;
+   /* background-color: aquamarine; */
+    margin: auto;
+    margin-top: 50px;
+}
+#banner img{
+    width: 800px;
+}
+#container{
+    width: 980px;
+    height: 600px;
+    /* background-color: rgb(183, 190, 188); */
+    margin: auto;
+    margin-top: 50px;
+}
+#esquerda{
+    width: 450px;
+    height: 400px;
+   /* background-color: rgb(1, 37, 25); */
+    float: left;
+}
+#direita{
+    width: 450px;
+    height: 400px;
+   /* background-color: rgb(90, 202, 15); */
+    float: right;
+}
+#rodape{
+    width: 980px;
+    height: 50px;
+    background-color: black;
+    margin: auto;
+}
+.justificado{
+    text-align: justify;
+}
+.titulo{
+    font-size: 16px;
+    color: brown;
+}
+.paragrafo{
+    color: white;
+    text-align: center;
+}
